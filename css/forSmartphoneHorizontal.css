@@ -1,0 +1,17 @@
+/* スマホ横画面 */
+@media screen and (max-width: 896px) and (orientation: landscape) {
+  main {
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+
+  .slideshow_page {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  .news{
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+}
