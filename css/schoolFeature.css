@@ -16,7 +16,7 @@
   }
 
 .background{
-  background-image: url("../image/price/bak.png");
+  background-image: url("../image/price/bak2.png");
   background-position:center bottom;/* 画像の表示位置を指定 */
   background-size:cover;            /* 画像のサイズを指定  */
   width:100%; 
