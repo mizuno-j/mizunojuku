@@ -30,14 +30,25 @@
   .background:first-line {
     line-height:50px;
   }
-  
+
+  .topic{
+    margin-top: 10px;
+    font-size: 20px;
+    color:rgb(250, 177, 234);
+    text-align: center ;
+    line-height:0;
+  }
+
+  .topic:first-line {
+    line-height:30px;
+  }
+
   .background > .subtitle{
     font-size: 15px;
     text-align: center ;
     line-height:0;
     color: #fff;
   }
-  
 .price{
   font-size: 20px;
   color:rgb(255, 0, 0);
@@ -107,3 +118,50 @@ table{
   border: 2px solid #ccc; /*線の太さ・色*/
   border-radius: 8px; /*角の丸み*/ 
  }
+
+ .balloon5 {
+  width: 100%;
+  margin: 1.5em 0;
+  overflow: hidden;
+}
+
+.balloon5 .faceicon {
+  float: left;
+  margin-right: -90px;
+  width: 80px;
+}
+
+.balloon5 .faceicon img{
+  width: 100%;
+  height: auto;
+  border: solid 3px #d7ebfe;
+  border-radius: 50%;
+}
+
+.balloon5 .chatting {
+  width: 100%;
+}
+
+.says {
+  display: inline-block;
+  position: relative; 
+  margin: 5px 0 0 105px;
+  padding: 17px 13px;
+  border-radius: 12px;
+  background: #d7ebfe;
+}
+
+.says:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 18px; 
+  left: -24px;
+  border: 12px solid transparent;
+  border-right: 12px solid #d7ebfe;
+}
+
+.says p {
+  margin: 0;
+  padding: 0;
+}
