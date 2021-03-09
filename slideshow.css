@@ -1,0 +1,98 @@
+.slideshow_page {
+  background-color:rgb(255, 255,255);
+  /* 背景色指定 */
+  width: auto;
+  /* 幅指定 */
+  /* padding:  10px; */
+  /* 余白指定 */
+  height: auto;
+  /* 高さ指定 */
+  /* padding-top: 37.5% */
+  /* display: inline-block; 
+  min-width: 100%; */
+
+  /* display:inline-block　使用時変な下余白を消す */
+  font-size: 1px;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.slideshow_page>.swiper-container {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide>table{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-collapse:separate;
+  border-spacing: 0;
+}
+  
+.swiper-slide>table th:first-child{
+    border-radius: 5px 0 0 0;
+  }
+  
+  .swiper-slide>table th:last-child{
+    border-radius: 0 5px 0 0;
+    border-right: 1px solid #3c6690;
+  }
+  
+  .swiper-slide>table th{
+    text-align: center;
+    color:white;
+    background: linear-gradient(rgb(255,255,255),rgb(0,9,255));
+    border-left: 1px solid #3c6690;
+    border-top: 1px solid #3c6690;
+    border-bottom: 1px solid #3c6690;
+    box-shadow: 0px 1px 1px rgba(255,255,255,0.3) inset;
+    width: 0;
+    padding: 10px 0;
+    font-size: 5px;
+  }
+  
+  .swiper-slide>table td{
+    text-align: center;
+    border-left: 1px solid #a8b7c5;
+    border-bottom: 1px solid #a8b7c5;
+    border-top:none;
+    box-shadow: 0px -3px 5px 1px #eee inset;
+    width: 0%;
+    display: table-cell; /* IE8から使用可能 */
+    vertical-align: middle;
+  }
+
+    
+tr a{
+  text-align: center;
+  border-left: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  border-top:none;
+  box-shadow: 0px -3px 5px 1px #eee inset;
+  width: 0%;
+  display: table-cell; /* IE8から使用可能 */
+  vertical-align: middle;
+  }
+  
+  .swiper-slide>table td:last-child{
+    border-right: 1px solid #a8b7c5;
+  }
+  
+  .swiper-slide>table tr:last-child td:first-child {
+    border-radius: 0 0 0 5px;
+  }
+  
+  .swiper-slide>table tr:last-child td:last-child {
+    border-radius: 0 0 5px 0;
+  }
