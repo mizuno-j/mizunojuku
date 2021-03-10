@@ -17,7 +17,7 @@ a.btn--yellow {
   font-size: 30px;
   margin-left: 20p;
   margin-right: 20p;
-  background-color: #eb6100;
+  background-color: #f88e42;
   text-decoration: none;
 }
 
@@ -31,7 +31,7 @@ a.btn--red.btn--cubic:hover {
 }
 
 a.btn--radius {
-  border-radius: 100vh;
+  border-radius: 15px;
 }
 
 .fa-position-right {
