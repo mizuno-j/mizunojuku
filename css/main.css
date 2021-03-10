@@ -7,7 +7,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: rgb(230, 255, 230);
+  background-color: rgb(230, 255, 250);
 }
 
 main {
@@ -20,4 +20,73 @@ main {
   /* クラス内側余白 */
   padding: 10px;
   background-color: rgb(255, 255, 255);
+}
+
+.acses_content {
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  /* 背景色指定 */
+  width: 100%;
+  /* 幅指定 */
+  height: auto;
+  /* 高さ指定 */
+  margin-bottom: 10px;
+}
+
+/*ここから*/
+/*
+html,body{
+  height:100%;
+}
+body{
+  text-align:center;
+}
+body:before{
+  content:'';
+  height:100%;
+  display:inline-block;
+  vertical-align:middle;
+  display: flex;
+  flex-direction: column;
+}
+*/
+button{
+  background:#1AAB8A;
+  color:#fff;
+  border:none;
+  position:relative;
+  width:　auto;
+  height:40px;
+  font-size: 26px;
+  /*padding:0 2em;*/
+  margin-right: 0px;
+  margin-left:  0px;
+  margin-bottom: -30px;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
 }

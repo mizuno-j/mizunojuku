@@ -1,11 +1,8 @@
 .news{
   width: auto;
   height: auto;
-
   background-color: rgba(255, 255, 255,);
-  margin-top: 10px;
-  margin-right: 25%;
-  margin-left: 25%;
+  margin: 2em auto;
 }
 
 .news b{

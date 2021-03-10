@@ -1,20 +1,14 @@
 /* スマホ縦画面 */
 @media screen and (max-width: 480px) {
   main {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
   }
-
-  .slideshow_page {
-    margin-right: 0%;
-    margin-left: 0%;
-  }
-
   .news{
     margin-right: 0%;
     margin-left: 0%;
   }
-
+  /*
   a.btn--orange {
     font-size: 25px;
     color: #fff;
@@ -22,4 +16,5 @@
     margin-right: 5px;
     margin-left:  5px;
   }
+  */
 }

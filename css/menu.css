@@ -11,26 +11,3 @@
   font-size: 13px;
   margin-bottom: 10px;
 }
-
-a.btn--orange {
-  font-size: 26px;
-  color: #000000;
-  /*background-color: rgb(0, 255, 150);*/
-  background: linear-gradient(rgb(200, 255, 0),rgb(0,255,0));
-  margin-top: 10px;
-  border-radius: 7px; /* 角の丸み */
-  margin-right: 10px;
-  margin-left:  30px;
-}
-
-a.btn--orange:hover {
-  margin-top: 3px;
-  color: #fff;
-  background: linear-gradient(rgb(255,255,255),rgb(0,255,0));
-  border-bottom: double;
-}
-
-a.btn--shadow {
-  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
-  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
-}
