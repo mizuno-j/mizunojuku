@@ -18,6 +18,7 @@ a.btn--yellow {
   margin-left: 20p;
   margin-right: 20p;
   background-color: #eb6100;
+  text-decoration: none;
 }
 
 a.btn--red.btn--cubic {
