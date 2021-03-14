@@ -63,13 +63,14 @@
   padding-left: 10px;
   vertical-align: middle;
 }
-
+/*
   .background{
     padding-top: 30%;
   }
+*/
 
+/*
   .background > .subtitle{
-    /* 自動改行しない */
     white-space: nowrap;
     font-size: 20px;
   }
@@ -77,7 +78,7 @@
   .subtitle:first-line {
     font-size: 30px;
   }
-/*
+
   .topic{
     font-size: 20px;
   }
@@ -86,5 +87,5 @@
     font-size: 30px;
     color: #fff;
   }
-    */
+  */
 }
