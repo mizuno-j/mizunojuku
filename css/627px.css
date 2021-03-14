@@ -1,0 +1,44 @@
+@media screen and (max-width: 627px) {
+    /* main.css */
+    main {
+        /* クラス外側余白 */
+        margin-top: 0px;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+
+    /* header.css */
+    header{
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+
+    /* menu.css */
+    .menu{
+        text-align: center;
+    }
+
+    /* menu.css */
+    .menu p{
+        font-size: 2vh;
+    }
+
+    /* menu.css */
+    .zone{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0px;
+        display: inline-block;
+    }
+
+    /* menu.css */
+    a.btn--yellow {
+        font-size: 30px;
+    }
+
+    /* schoolFeatur.css */
+    .background{
+        width:100%; 
+        height:13vh;
+    }
+}
