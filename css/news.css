@@ -14,7 +14,7 @@
   margin-top: 5px;
 }
 .msr_newslist02 li {
-  font-size: 20px;
+  font-size: 14px;
   background-color:#F3F3F3;
 }
 .msr_newslist02 li:nth-child(odd) {
@@ -39,7 +39,7 @@
 
 .msr_newslist02 li div {
   display: table-cell;
-  width: 200px;
+  width: 144px;
 }
 .msr_newslist02 li p {
   display: table-cell;
@@ -52,7 +52,6 @@
   display: table-cell;
   vertical-align: top;
   width: 90px;
-  padding-right: 20px;
 }
 
 /* カテゴリの設定 */
@@ -61,11 +60,10 @@
   background-color: #1B73BA;
   border-radius: 1px;
   color: #FFFFFF;
-  font-size: 13px;
+  font-size: 9px;
   padding: 0 2px;
   text-align: center;
   width: 50px;
-
 }
 .msr_newslist02 li .cat02 {
   background-color: #0E3A5F;
