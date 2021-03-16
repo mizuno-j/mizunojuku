@@ -1,0 +1,72 @@
+.slider {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  background-color: #f0c593;
+}
+
+b{
+  display:inline; background-color:rgb(173, 244, 247,0.5);
+}
+
+input[type=radio] {
+  display: none;
+}
+
+.inner_slider {
+  /* height: 100px; */
+  position: relative;
+}
+    
+.img1 {
+  position: absolute;
+  color: rgba(255, 0, 0, 10);
+  font-size: 20px;
+  left: 0;
+  top: 0;
+}
+
+.img2 {
+  position: absolute;
+  width: 100px;
+  /* height: 100px; */
+  left: 2000px;
+  top: -220px;
+}
+
+.img3 {
+  position: absolute;
+  /* width: 137vh; */
+  width: 100%;
+  /* height: 100%; */
+  height: 75vh;
+
+  left: 2000px;
+  top: -190px;
+}
+
+a.btn--bak {
+  color: #FFF;
+  font-size: 30px;
+  background-color: #f88e42;
+  text-decoration: none;
+}
+
+.inner_slider {
+  position: relative;
+  /* width: 800px; */
+  /* width: 100%; */
+  height: 10vh;
+  left: 0;
+  top: 0;
+  transition: all .3s ease-in-out;
+}
+
+#radio_slider1:checked ~ .inner_slider {
+  transform: translateX(0);
+}
+
+#radio_slider2:checked ~ .inner_slider {
+  transform: translateX(-2000px);
+}
+/* .img3、.img4も同じように… */
