@@ -1,0 +1,38 @@
+/* スマホ縦画面 */
+@media screen and (max-width: 380px) {
+
+  header{
+    height: 8vh;/*高さ制限*/
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  main {
+    /* クラス外側余白 */
+    margin-top: 0px;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding: 10px;
+}
+  /* menu.css */
+  .menu p{
+    font-size: 1.8vh;
+  }
+  a.btn--yellow {
+      font-size: 3.8vh;
+    }
+
+   /* schoolFeatur.css */
+   .background{
+    width:100%; 
+    height:2vh;
+}
+
+.subtitle:first-line {
+  font-size: 20px;
+}
+
+.background > .subtitle{
+  font-size: 10px;
+}
+}

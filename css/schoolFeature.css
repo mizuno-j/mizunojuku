@@ -1,0 +1,265 @@
+/*現スマホ対応のため後日修正*/
+/*対応不要？*/
+.schoolFeature{
+    margin-top: 10px;
+    margin: 2em auto;
+  }
+
+  .schoolFeature b{
+    display:inline; background-color:rgb(173, 244, 247,0.5);
+  }
+
+  .schoolFeature p{
+    font-size: 12px;
+  }
+
+  .schoolFeature .p2{
+    font-size: 25px;
+  }
+
+.background{
+  background-image: url("../image/price/bak4.jpg");
+  background-position:center bottom;/* 画像の表示位置を指定 */
+  background-size:cover;            /* 画像のサイズを指定  */
+  background-repeat: no-repeat; 
+  /* width:100%; 
+  height:20vh; */
+
+  /* 新規追加 */
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 15%;
+  /* 追加終わり */
+
+  font-size: 40px;
+  text-align: center ;
+  color: #fff;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .background{
+      width: 100%;
+      height: 0;
+      padding-top: 16%;
+    }
+}
+
+@media screen and (min-height: 700px ) and (max-height:1000px){
+  .background{
+    width: 100%;
+    height: 0;
+    padding-top: 13%;
+  }
+}
+
+@media screen and (min-height: 700px) and (max-width: 1024px) {
+  .background{
+    width: 100%;
+    height: 0;
+    padding-top: 20%;
+  }
+}
+
+@media screen and (min-height: 1300px){
+  .background{
+    width: 100%;
+    height: 0;
+    padding-top: 20%;
+  }
+}
+/*
+@media screen and (min-height: 700px){
+  .background{
+    width: 100%;
+    height: 0;
+    padding-top: 14%;
+  }
+}
+*/
+
+.background:first-line {
+  line-height:50px;
+}
+
+.background > .subtitle{
+  /* 新規追加 */
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  -ms-transform: translate(-50%,0);
+  -webkit-transform: translate(-50%,0);
+  transform: translate(-50%,0);
+  margin:0;
+  padding:0;
+  /* 追加終わり */
+
+  font-size: 25px;
+  text-align: center ;
+  /* line-height:13px; */
+  color: #fff;
+}
+
+.background > .subtitle .a {
+  font-size: 10px;
+}
+
+/* 新規追加 */
+.subtitle:first-line {
+  font-size: 40px;
+}
+/* 追加終わり */
+
+/* .topic{
+  margin-top: 10px;
+  font-size: 20px;
+  color:rgb(250, 177, 234);
+  text-align: center ;
+  line-height:0;
+}
+
+.topic:first-line {
+  line-height:30px;
+} */
+
+/* 新規変更*/
+.topic{
+  /* 自動改行しない */
+  white-space: nowrap;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  -ms-transform: translate(-50%,0);
+  -webkit-transform: translate(-50%,0);
+  transform: translate(-50%,0);
+  margin:0;
+  padding:0;
+  font-size: 20px;
+  text-align: center ;
+  color:rgb(250, 177, 234);
+}
+
+.topic > span {
+  font-size: 40px;
+  color: #fff;
+}
+/* 終わり */
+
+.price{
+  font-size: 20px;
+  color:rgb(255, 0, 0);
+  line-height:40px;
+}
+  
+table{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-collapse:separate;
+  border-spacing: 0;
+}
+  
+  table th:first-child{
+    border-radius: 5px 0 0 0;
+  }
+  
+  table th:last-child{
+    border-radius: 0 5px 0 0;
+    border-right: 1px solid #3c6690;
+  }
+  
+  table th{
+    text-align: center;
+    color:white;
+    background: linear-gradient(#829ebc,#225588);
+    border-left: 1px solid #3c6690;
+    border-top: 1px solid #3c6690;
+    border-bottom: 1px solid #3c6690;
+    box-shadow: 0px 1px 1px rgba(255,255,255,0.3) inset;
+    width: 25%;
+    padding: 10px 0;
+  }
+  
+  table td{
+    text-align: center;
+    border-left: 1px solid #a8b7c5;
+    border-bottom: 1px solid #a8b7c5;
+    border-top:none;
+    box-shadow: 0px -3px 5px 1px #eee inset;
+    width: 25%;
+    padding: 10px 0;
+  }
+  
+  table td:last-child{
+    border-right: 1px solid #a8b7c5;
+  }
+  
+  table tr:last-child td:first-child {
+    border-radius: 0 0 0 5px;
+  }
+  
+  table tr:last-child td:last-child {
+    border-radius: 0 0 5px 0;
+  }
+
+  /* シンプル角丸 枠 1 */
+.kakomi-maru1 { 
+  margin-top: 10px;
+  margin-bottom: 15px;
+  line-height:20px;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 90%; /*幅の調節*/
+  color: #666666; /*文字色*/
+  background-color: #f7f7f7; /*背景色*/
+  border: 2px solid #ccc; /*線の太さ・色*/
+  border-radius: 8px; /*角の丸み*/ 
+ }
+
+ .balloon5 {
+  width: 100%;
+  margin: 1.5em 0;
+  overflow: hidden;
+}
+
+.balloon5 .faceicon {
+  float: left;
+  margin-right: -90px;
+  width: 80px;
+}
+
+.balloon5 .faceicon img{
+  width: 100%;
+  height: auto;
+  border: solid 3px #d7ebfe;
+  border-radius: 50%;
+}
+
+.balloon5 .chatting {
+  width: 100%;
+}
+
+.says {
+  display: inline-block;
+  position: relative; 
+  margin: 5px 0 0 105px;
+  padding: 17px 13px;
+  border-radius: 12px;
+  background: #d7ebfe;
+}
+
+.says:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 18px; 
+  left: -24px;
+  border: 12px solid transparent;
+  border-right: 12px solid #d7ebfe;
+}
+
+.says p {
+  margin: 0;
+  padding: 0;
+}
