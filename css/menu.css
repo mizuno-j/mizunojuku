@@ -42,14 +42,35 @@
 
 /*本体*/
 /*ボタン位置　無理やりのため今後課題*/
-.zone{
-  display: inline-block;
+/* .zone{
+  display: inline-block; */
   /* margin-left: 25%;
   margin-right: 25%;
   margin-bottom: -10px; */
+/* } */
+
+.zoneChild{
+  display: flex;
+  justify-content:center;
+  /* 折返し指定 */
+  flex-wrap: wrap;
+  /* 折り返し時の配置指定 */ 
+  align-content:center;
+}
+
+/* 追加 */
+.zoneChild_item{
+  width: 50%;
 }
 
 a.btn--yellow {
+  /* 追加 */
+  display: block;
+  /* オレンジ部分　表示領域設定 */
+  width: 75%;
+  /* 中央寄せ */
+  margin: 10px auto;
+
   color: #FFF;
   font-size: 40px;
   background-color: #f88e42;

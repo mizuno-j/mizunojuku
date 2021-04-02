@@ -20,18 +20,34 @@ input[type=radio] {
     
 .img1 {
   position: absolute;
-  color: rgba(255, 0, 0, 10);
+  /* color: rgba(255, 0, 0, 10); */
   font-size: 20px;
   left: 0;
-  top: 0;
+  top: 20px;
+
+  border: 1px solid rgb(93, 93, 93);
+  background: #f1e767;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fdfbfb), to(#ebedee));
+  background: -webkit-linear-gradient(top, #fdfbfb 0%, #ebedee 100%);
+  background: linear-gradient(to bottom, #fdfbfb 0%, #ebedee 100%);
+  -webkit-box-shadow: inset 1px 1px 1px #fff;
+  box-shadow: inset 1px 1px 1px #fff;
 }
+
+.img1:hover{
+  background: -webkit-gradient(linear, left bottom, left top, from(#81757581), to(#ebedee));
+  background: -webkit-linear-gradient(bottom, #81757581 0%, #ebedee 100%);
+  background: linear-gradient(to top, #d3cecec7 0%, #ebedee 100%);
+}
+
 
 .img2 {
   position: absolute;
   width: 100px;
   /* height: 100px; */
   left: 2000px;
-  top: -220px;
+  /* top: -220px; */
+  top: -380px;
 }
 
 .img3 {
@@ -42,7 +58,8 @@ input[type=radio] {
   height: 75vh;
 
   left: 2000px;
-  top: -190px;
+  /* top: -190px; */
+  top: -345px;
 }
 
 a.btn--bak {
