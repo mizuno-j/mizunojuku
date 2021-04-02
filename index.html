@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>みずの塾</title>
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <!--
       
@@ -42,12 +44,27 @@
       <!-- メニューボタン -->
       <div class="menu" id="menu">
         <p>
-          ※価格・スケジュールが気になる方はクリック！！<br>
+          ※気になる方はクリック！！<br>
         </p>
          <div class ="zone">
-        <a href="#element" class="btn btn--yellow btn--red btn--radius btn--cubic">小学生<i class="fas fa-angle-right fa-position-right"></i></a>
-        <a href="#hischool"  class="btn btn--yellow btn--red btn--radius btn--cubic">中学生<i class="fas fa-angle-right fa-position-right"></i></a>
-        <a href="#puzzule"  class="btn btn--yellow btn--red btn--radius btn--cubic">パズル道場<i class="fas fa-angle-right fa-position-right"></i></a>
+           <!-- class="zoneChild"　追加 -->
+           <div class="zoneChild">
+             <div class="zoneChild_item">
+              <a href="#element" class="btn btn--yellow btn--red btn--radius btn--cubic">小学生<i class="fas fa-angle-right fa-position-right"></i></a>
+             </div>
+             <div class="zoneChild_item">
+              <a href="#puzzule"  class="btn btn--yellow btn--red btn--radius btn--cubic">パズル<i class="fas fa-angle-right fa-position-right"></i></a>
+            </div>
+            <div class="zoneChild_item">
+              <a href="#hischool"  class="btn btn--yellow btn--red btn--radius btn--cubic">中学生<i class="fas fa-angle-right fa-position-right"></i></a>
+            </div>
+            <div class="zoneChild_item">
+              <a href="#kentei"  class="btn btn--yellow btn--red btn--radius btn--cubic">検定<i class="fas fa-angle-right fa-position-right"></i></a>
+            </div>
+           </div>
+           <!-- <a href="#element" class="btn btn--yellow btn--red btn--radius btn--cubic">小学生<i class="fas fa-angle-right fa-position-right"></i></a>
+           <a href="#hischool"  class="btn btn--yellow btn--red btn--radius btn--cubic">中学生<i class="fas fa-angle-right fa-position-right"></i></a>
+           <a href="#puzzule"  class="btn btn--yellow btn--red btn--radius btn--cubic">パズル道場<i class="fas fa-angle-right fa-position-right"></i></a> -->
          </div>
       </div> 
       <!--
@@ -117,7 +134,7 @@
         </div>
         <p>
           ・<a href = "tel:090-1981-9908">電話</a>または
-           <a href = "https://docs.google.com/forms/d/e/1FAIpQLSeVpyyQcrP2uhETcwv7Z1ZUg_ID7Nnt7TjMPdFoAMG-Dqzy1g/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">問い合わせフォーム</a>から申し込めます。<br>
+           <a href = "mailto:info@example.com?subject=問い合わせ&amp;body=ご記入ください">メール</a>から申し込めます。<br>
           ・平日16:00～22:00<br>
           (授業中で出れないこともあります)
         </p>
@@ -128,7 +145,6 @@
         </div>
         <p>
           ・実際の授業に参加・体験できます。<br>
-          ・最大4回体験いただけます。<br>
         </p>
         <div class="flow3">
           <after>
@@ -136,8 +152,9 @@
           </after>
         </div>
         <p>
-          ・保護者へのご説明をさせていただきます<br>
-          ・ご質問等も受け付けております<br>
+          ・保護者へのご説明をさせていただきます。<br>
+          　その後、ご家族でご検討ください。<br>
+          ・ご質問等も受け付けております。<br>
         </p>
         <div class="flow4">
           <after>
@@ -158,7 +175,7 @@
         総合では、主に漢字と社会に取り組みます。
         英語は英単語・英文を「元気に読むこと」、そして「丁寧に書くこと」を中心に行います。<br>
         <div class="price">
-          授業料(月額) : 11,400円(税別)
+          授業料(月額) : <span style="font-size: 2rem;">12,500</span>円(税込)
         </div>
         <p>
           ※授業料には教材費、維持費、模試代が含まれています。<br>
@@ -175,13 +192,11 @@
             <td>17:10~19:05</td>
           </tr>
         </table>
-        <p>
-          ※理解、練習不足の生徒に対して授業日以外に補修を行う場合があります。<br>
-          ※授業内容は生徒の理解度によって変更する場合があります。<br>
-        </p>
-        <div class="kakomi-maru1">
-          現在生徒数(2020年 4月現在)<br>
-          4年:6人 5年:4人 6年:7人
+        <div class="comment">
+          <p>
+            ※理解、練習不足の生徒に対して授業日以外に補習を行う場合があります。<br>
+            ※授業内容は生徒の理解度によって変更する場合があります。<br>
+          </p>
         </div>
         <div class="background" id="hischool">
           <img src="./image/price/hischool.jpg" alt="緒川、塾、みずの塾" id="title">
@@ -196,7 +211,7 @@
           中3生には入試対策をおこないます。
           随時個別の質問に答えます。
         <div class="price">
-          授業料(月額) : 18,200円(税別)
+          授業料(月額) : 20,000円(税込)
         </div>
         <p>
           ※授業料には教材費、維持費、模試代が含まれています。<br>
@@ -227,13 +242,11 @@
             </td>
           </tr>
         </table>
-        <p>
-          ※理解、練習不足の生徒に対して授業日以外に補修を行う場合があります。<br>
-          ※授業内容は生徒の理解度によって変更する場合があります。<br>
-        </p>
-        <div class="kakomi-maru1">
-          現在生徒数(2020年 4月現在)<br>
-          1年:9人 2年:9人 3年:12人
+        <div class="comment">
+          <p>
+            ※理解、練習不足の生徒に対して授業日以外に補習を行う場合があります。<br>
+            ※授業内容は生徒の理解度によって変更する場合があります。<br>
+          </p>
         </div>
         <div class="background" id="puzzule"> 
           <!--パズル道場
@@ -241,17 +254,17 @@
             ＋α
           </div>-->
           <img src="./image/price/puzzule.jpg" alt="緒川、塾、みずの塾" id="title">
-        </div>-
+        </div>
         「覚える前に考える人になろう」「できなくても考えた分だけ賢くなる」を合言葉に、低学年から始められる算数講座です。
         テキスト問題・Web問題・対策型教具を用いて、算数のセンス(仮想思考力・イメージ化能力・量感)や非認知能力(主体性・ねばり強さなど)を磨きます。
         ＋αとして、年齢に応じた国語トレーニングを行います。
         低学年の脳内スポーツとしてお勧めします！
         <div class="price">
-          授業料(月額) : 6,600円(税別)
+          授業料(月額) : 7,200円(税込)
         </div>
         <p2>
           詳しくはこちら↓↓↓↓↓↓↓↓<br>
-          <a href="http://www.p-dojo.com/">パズル道場公式サイト</a>
+          <a href="http://www.p-dojo.com/" style="font-size: 130%;">パズル道場公式サイト</a>
         </p2>
         <table>
           <tr>
@@ -269,39 +282,15 @@
             </td>
           </tr>
         </table>
-        <div class="background" id="element">
+        <div class="background" id="kentei">
          <!-- <div class="topic">
             春限定
           </div>
           中学準備講座<br>-->
-          <img src="./image/price/zuynnbi.jpg" alt="緒川、塾、みずの塾" id="title">
+          <img src="./image/price/kentei.jpg" alt="緒川、塾、みずの塾" id="title">
         </div>
-        4日間の中学準備講座(英語・数学)を行います。
-        自分の得意や苦手に気づくきっかけにしませんか？<br>
-        <div class="price">
-          授業料(月額) : 3,000円(税別)
-        </div>
-          講義内容：数学「正負の数」<br>
-          　　　　　英語「Be動詞文・一般動詞文」
-        <table>
-          <tr>
-            <th>開講曜日</th>
-            <th>授業時間</th>
-          </tr>
-          <tr>
-            <td>火・木</td>
-            <td>17:00~19:10</td>
-          </tr>
-        </table>
-        <p>
-          ※理解、練習不足の生徒に対して授業日以外に補修を行う場合があります。<br>
-          ※授業内容は生徒の理解度によって変更する場合があります。<br>
-        </p>
-        <div class="kakomi-maru1">
-          現在生徒数(2020年 4月現在)<br>
-          4年:6人 5年:4人 6年:7人
-        </div>
-      </div>  
+        みずの塾では、外部の方でも受験することができます。
+      </div>
       
       <div class="acses_content">
         <h4>アクセス</h4>
@@ -313,11 +302,10 @@
           <input type="radio" name="radio_slider" id="radio_slider2" value="2">
           <br>
           <br>
-          〒470-2102 <br>
-          愛知県知多郡東浦町緒川宝前庵13－20　3F<br>
+          〒470-2102<br>
+          知多郡東浦町緒川宝前庵13－20<br>
           <br>
           TEL：<a href = "tel:090-1981-9908">0562-82-3776</a><br>
-          FAX：????-????-???? <br>
           お問い合わせ時間　平日16:00～22:00(授業中で出れないこともあります。)
           <br>
           メールアドレス：<br>
@@ -331,7 +319,7 @@
             <label for="radio_slider1"><a class="btn btn--bak img2" >閉じる</a></label>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.796833011309!2d136.9646273145836!3d34.986753375353004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600482d9274540f5%3A0x88438edafaaf52f6!2z44G_44Ga44Gu5aG-!5e0!3m2!1sja!2sjp!4v1615657951592!5m2!1sja!2sjp"class="img3">
           </div>
-      </div>
+        </div>
         </div>
 
 
