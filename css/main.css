@@ -18,8 +18,8 @@ body {
 main {
   /* クラス外側余白 */
   margin-top: 10px;
-  margin-right: 15%;
-  margin-left: 15%;
+  margin-right: 25%;
+  margin-left: 25%;
   border-radius: 15px; /* 角の丸み */
 
   /* クラス内側余白 */
@@ -27,8 +27,8 @@ main {
   background-color: rgb(255, 255, 255);
 
   /* 追加 */
-  line-height: 1.5;
-  font-size: 120%;
+  line-height:30px;
+  font-size: 30px;
 }
 @media screen and (max-width: 830px) {
   /* main.css */
@@ -48,3 +48,4 @@ main {
     margin-left: 0%;
   }
 }
+

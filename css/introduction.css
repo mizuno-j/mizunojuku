@@ -5,8 +5,8 @@
 .kokuban-s2 {
     font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
     font-weight: bolder; 
-    font-size: 20px;
-    line-height:20px;
+    font-size: 30px;
+    line-height:30px;
     position: relative;
     width: 85%; /* ボックス幅 */
     background: #006633; /* ボックス背景色 */
@@ -17,6 +17,10 @@
     margin: 2em auto;
     padding: 1em;
    }
+
+  .colam{
+    line-height:50px;
+  }
 
    /*チョーク*/
    .kokuban-s2::before,
@@ -133,5 +137,61 @@
   @media screen and (min-height: 1300px) {
     .kokuban-s2::before  {
       border: solid 3px white;
+    }
+  }
+
+  .under {
+    background: linear-gradient(transparent 75%, #ff99ab 90%);
+  }
+
+  .under2 {
+    background: linear-gradient(transparent 0, #66b104 0);
+    font-size: 32px;
+    line-height:50px;
+  }
+
+  .fashionable-box3{
+    margin: 1em 0;
+    padding: 1em;
+    box-shadow: 0 0 3px 3px #b2ff59, 0 0 3px 2px #b2ff59 inset;
+    border-radius: 10px;
+    color: #000000; /* 文章色 */
+    background: rgb(255,255,255);
+  }
+  
+  .fashionable-box3 p{
+    margin: 0;
+    padding: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .kokuban-s2 { 
+      font-size: 20px;
+      line-height:20px;
+     }
+
+    .colam{
+      line-height:25px;
+    }
+
+    .under2 {
+      font-size: 18px;
+      line-height:25px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .kokuban-s2 { 
+      font-size: 11.5px;
+      line-height:15px;
+     }
+
+    .colam{
+      line-height:16px;
+    }
+
+    .under2 {
+      font-size: 18px;
+      line-height:25px;
     }
   }

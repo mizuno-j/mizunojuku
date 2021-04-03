@@ -2,6 +2,8 @@
   width: 100%;
   height: 500px;
   overflow: hidden;
+  font-size: 20px;
+  margin: 2em auto;
   /*background-color: rgb(255, 218, 138,0.3);*/
 }
 
@@ -23,7 +25,7 @@ input[type=radio] {
   /* color: rgba(255, 0, 0, 10); */
   font-size: 20px;
   left: 0;
-  top: 20px;
+  top: 10px;
 
   border: 1px solid rgb(93, 93, 93);
   background: #f1e767;
@@ -44,7 +46,6 @@ input[type=radio] {
 .img2 {
   position: absolute;
   width: 100px;
-  /* height: 100px; */
   left: 2000px;
   /* top: -220px; */
   top: -380px;
@@ -59,7 +60,7 @@ input[type=radio] {
 
   left: 2000px;
   /* top: -190px; */
-  top: -345px;
+  top: -350px;
 }
 
 a.btn--bak {
@@ -101,3 +102,10 @@ a.btn--bak {
   padding: 0;
 }*/
 /* .img3、.img4も同じように… */
+@media screen and (max-width: 480px) {
+  .slider {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+}

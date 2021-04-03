@@ -13,13 +13,13 @@
   text-shadow: 1px 1px 1px #555, -1px 1px 1px #555, 1px -1px 1px #555, -1px -1px 1px #555, 1px 1px 1px #555, -1px 1px 1px #555, 1px -1px 1px #555, -1px -1px 1px #555, 5px 5px #fff;
   transform: rotate(-0deg);
   text-align: center;
-  font-size: 4vh;
-  margin-bottom: 20px;
+  font-size: 5vh;
+  margin-bottom: 0px;
 }
 
 @media screen and (min-height: 700px){
   .menu p{
-    font-size: 3.5vh;
+    font-size: 4vh;
   }
 }
 
@@ -40,15 +40,6 @@
   }
 }
 
-/*本体*/
-/*ボタン位置　無理やりのため今後課題*/
-/* .zone{
-  display: inline-block; */
-  /* margin-left: 25%;
-  margin-right: 25%;
-  margin-bottom: -10px; */
-/* } */
-
 .zoneChild{
   display: flex;
   justify-content:center;
@@ -56,30 +47,49 @@
   flex-wrap: wrap;
   /* 折り返し時の配置指定 */ 
   align-content:center;
+  line-height:40px;
 }
 
 /* 追加 */
 .zoneChild_item{
-  width: 50%;
+  width: 40%;
+}
+
+.zoneChild_item-Long{
+  width: 60%;
 }
 
 a.btn--yellow {
   /* 追加 */
   display: block;
   /* オレンジ部分　表示領域設定 */
-  width: 75%;
+  width: 70%;
   /* 中央寄せ */
-  margin: 10px auto;
+  margin: 5px 150px;
 
   color: #FFF;
-  font-size: 40px;
+  font-size: 20px;
+  background-color: #f88e42;
+  text-decoration: none;
+}
+
+a.btn--yellow-Long {
+  /* 追加 */
+  display: block;
+  /* オレンジ部分　表示領域設定 */
+  width: 75%;
+  /* 中央寄せ */
+  margin: 5px 50px;
+
+  color: #FFF;
+  font-size: 20px;
   background-color: #f88e42;
   text-decoration: none;
 }
 
 @media screen and (max-width: 830px) {
   a.btn--yellow {
-    font-size: 45px;
+    font-size: 20px;
   }
 }
 
@@ -90,8 +100,8 @@ a.btn--yellow {
 }
 
 @media screen and (min-height: 700px) {
-  a.btn--yellow {
-    font-size: 50px;
+  a.btn--yellow, a.btn--yellow-Long{
+    font-size: 30px;
   }
 }
 
@@ -115,3 +125,59 @@ a.btn--radius {
   right: 1rem;
 }
 */
+
+@media screen and (max-width: 768px) {
+
+  .zoneChild_item{
+    width: 40%;
+  }
+  
+  .zoneChild_item-Long{
+    width: 60%;
+  }
+
+  a.btn--yellow {
+    /* オレンジ部分　表示領域設定 */
+    width: 70%;
+    /* 中央寄せ */
+    margin: 5px 80px;
+    font-size: 20px;
+  }
+  
+  a.btn--yellow-Long {
+    /* オレンジ部分　表示領域設定 */
+    width: 75%;
+    /* 中央寄せ */
+    margin: 5px 20px;
+    font-size: 30px;
+  }
+    
+}
+
+@media screen and (max-width: 480px) {
+
+  .zoneChild_item{
+    width: 40%;
+  }
+  
+  .zoneChild_item-Long{
+    width: 60%;
+  }
+
+  a.btn--yellow {
+    /* オレンジ部分　表示領域設定 */
+    width: 70%;
+    /* 中央寄せ */
+    margin: 5px 30px;
+    font-size: 17px;
+  }
+  
+  a.btn--yellow-Long {
+    /* オレンジ部分　表示領域設定 */
+    width: 75%;
+    /* 中央寄せ */
+    margin: 5px 20px;
+    font-size: 17px;
+  }
+    
+}

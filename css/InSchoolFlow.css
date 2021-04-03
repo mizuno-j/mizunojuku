@@ -2,6 +2,7 @@
   width: 100%;
   height: 100%;
   margin: 2em auto;
+  font-size: 35px;
 }
 
 .inschoolflow b{
@@ -9,7 +10,8 @@
 }
 
 .inschoolflow p{
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .flow1 {
@@ -118,4 +120,28 @@
   font-size: 0.7em;
   line-height: 1;
   letter-spacing: 0.05em;
+}
+
+@media screen and (max-width: 768px) {
+  .inschoolflow{
+    font-size: 23px;
+  }
+
+  .inschoolflow p{
+    font-size: 17px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .inschoolflow{
+    font-size: 23px;
+  }
+
+  .inschoolflow p{
+    font-size: 17px;
+    line-height: 28px;
+  }
+
+  
 }
