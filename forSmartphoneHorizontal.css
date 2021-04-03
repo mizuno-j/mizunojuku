@@ -1,0 +1,29 @@
+/* スマホ縦画面 */
+
+@media screen and (max-width: 380px) {
+
+  header{
+    height: 8vh;/*高さ制限*/
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  main {
+    /* クラス外側余白 */
+    margin-top: 0px;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding: 10px;
+}
+  /* menu.css */
+  .menu p{
+    font-size: 1.8vh;
+  }
+  a.btn--yellow {
+      font-size: 3.8vh;
+    }
+
+    .background{
+      height: 10vh;/*高さ制限*/
+    }
+  }
