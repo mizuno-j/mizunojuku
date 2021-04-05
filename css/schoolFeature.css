@@ -259,7 +259,7 @@ table{
 }
 
 .under3 {
-  background: linear-gradient(transparent 60%, #99ffff 90%);
+  background: linear-gradient(transparent 75%, #99ffff 90%);
 }
 
 @media screen and (max-width: 768px) {

@@ -17,12 +17,11 @@
 }
   /* menu.css */
   .menu p{
-    font-size: 1.8vh;
+    font-size: 20px;
   }
   a.btn--yellow {
-      font-size: 3.8vh;
+    font-size: 19px;
     }
-
     .background{
       height: 10vh;/*高さ制限*/
     }
