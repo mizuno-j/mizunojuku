@@ -8,13 +8,13 @@
     font-size: 30px;
     line-height:30px;
     position: relative;
-    width: 85%; /* ボックス幅 */
+    width: 88%; /* ボックス幅 */
     background: #006633; /* ボックス背景色 */
     color: #fff; /* 文章色 */
     border: 8px solid #b2771f; /* 枠線 */
     border-radius: 3px; /* 角の丸み */
     box-shadow: 0 0 5px #333, 0 0 5px #555 inset;
-    margin: 2em auto;
+    margin: 2em 0px;
     padding: 1em;
    }
 
@@ -215,12 +215,12 @@
 
   @media screen and (max-width: 480px) {
     .kokuban-s2 { 
-      font-size: 14.8px;
-      line-height:20px;
+      font-size: 16px;
+      line-height:18px;
      }
 
     .colam{
-      line-height:22px;
+      line-height:25px;
     }
 
     .under2 {
@@ -234,6 +234,6 @@
     }
 
     .border02{
-      font-size: 1px;
+      font-size: 20px;
   }
   }
