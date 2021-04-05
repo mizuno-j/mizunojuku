@@ -166,9 +166,35 @@
   
   .border02{
     font-size: 16px;
-    color: #fff;
-    text-shadow: 1px 1px 1px #000, -1px 1px 1px #555, 1px -1px 1px #555, -1px -1px 1px #555, 1px 1px 1px #555, -1px 1px 1px #555, 1px -1px 1px #555, -1px -1px 1px #555, 3px 3px #9ccc65;
+    color: #eff;
+    text-shadow: 1px 1px 1px #000, -1px 1px 1px #555, 1px -1px 1px #555, -1px -1px 1px #555, 1px 1px 1px #555, -1px 1px 1px #555, 1px -1px 1px #555, -1px -1px 1px #555, 4px 4px rgb(0,0,0)/*#9ccc65*/;
     transform: rotate(-3deg);
+}
+
+.box26 {
+  position: relative;
+  margin: 2em 0;
+  padding: 0.5em 1em;
+  border: solid 3px #95ccff;
+  border-radius: 8px;
+  font-size: 18px;
+  line-height:25px;
+}
+.box26 .box-title {
+  position: absolute;
+  display: inline-block;
+  top: -13px;
+  left: 10px;
+  padding: 0 9px;
+  line-height: 1;
+  background: #006633; /* ボックス背景色 */
+  font-size: 19px;
+  color: #95ccff;
+  font-weight: bold;
+}
+.box26 p {
+  margin: 0; 
+  padding: 0;
 }
 
   @media screen and (max-width: 768px) {
@@ -201,4 +227,13 @@
       font-size: 18px;
       line-height:25px;
     }
+
+    .box26 {
+      font-size: 15.5px;
+      line-height:25px;
+    }
+
+    .border02{
+      font-size: 19.5px;
+  }
   }
