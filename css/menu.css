@@ -2,10 +2,6 @@
 
 .menu{
   text-align: center;
-  /*
-  display: flex;
-  flex-direction: column;
-  */
 }
 
 .menu p{
@@ -47,7 +43,7 @@
   flex-wrap: wrap;
   /* 折り返し時の配置指定 */ 
   align-content:center;
-  line-height:40px;
+  line-height:35px;
 }
 
 /* 追加 */
@@ -125,6 +121,9 @@ a.btn--radius {
   right: 1rem;
 }
 */
+a.btn--yellowfont {
+  font-size: 20px;
+}
 
 @media screen and (max-width: 768px) {
 
@@ -143,7 +142,7 @@ a.btn--radius {
     margin: 5px 80px;
     font-size: 20px;
   }
-  
+
   a.btn--yellow-Long {
     /* オレンジ部分　表示領域設定 */
     width: 75%;
@@ -155,9 +154,12 @@ a.btn--radius {
 }
 
 @media screen and (max-width: 480px) {
-
+  .menu p{
+    font-size: 20px;
+  }
   .zoneChild_item{
     width: 40%;
+    font-size: 10px;
   }
   
   .zoneChild_item-Long{
@@ -166,18 +168,18 @@ a.btn--radius {
 
   a.btn--yellow {
     /* オレンジ部分　表示領域設定 */
-    width: 70%;
+    width: 80%;
     /* 中央寄せ */
-    margin: 5px 30px;
-    font-size: 17px;
+    margin: 5px 15px;
+    font-size: 19px;
   }
-  
+
   a.btn--yellow-Long {
     /* オレンジ部分　表示領域設定 */
-    width: 75%;
+    width: 90%;
     /* 中央寄せ */
-    margin: 5px 20px;
-    font-size: 17px;
+    margin: 5px 12px;
+    font-size: 18px;
   }
     
 }
