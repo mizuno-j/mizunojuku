@@ -228,6 +228,7 @@ table{
   padding: 0;
 }
 .tape-box{
+
   margin: 1em 0;
   padding: 1em;
   width: 48%;
@@ -248,6 +249,7 @@ table{
 }
 
 .tape-box p{
+  text-align: center;
   font-size: 35px;
   margin: 0;
   padding: 0;

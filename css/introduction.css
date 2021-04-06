@@ -141,7 +141,7 @@
   }
 
   .under {
-    background: linear-gradient(transparent 75%, #ff99ab 90%);
+    background: linear-gradient(transparent 70%, #ff99ab 88%);
   }
 
   .under2 {
@@ -215,7 +215,7 @@
 
   @media screen and (max-width: 480px) {
     .kokuban-s2 { 
-      font-size: 16px;
+      font-size: 15.5px;
       line-height:18px;
      }
 
@@ -234,6 +234,6 @@
     }
 
     .border02{
-      font-size: 20px;
+      font-size: 19px;
   }
   }
