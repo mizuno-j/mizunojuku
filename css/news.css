@@ -56,13 +56,13 @@
 }
 
 /* カテゴリの設定 */
-.msr_newslist02 li .cat01,
+.msr_newslist02 li .cat03,
 .msr_newslist02 li .cat02,
-.msr_newslist02 li .cat03 {
+.msr_newslist02 li .cat01 {
   background-color: #1B73BA;
   border-radius: 1px;
   color: #FFFFFF;
-  font-size: 1px;
+  font-size: 10px;
   padding: 0 2px;
   text-align: center;
   width: 50px;
